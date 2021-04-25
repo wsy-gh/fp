@@ -11,7 +11,7 @@
               }}
             </p>
           </div>
-          <div v-html="article.body" m-5></div>
+          <div v-html="article.body" class="article-body"></div>
           <div class="mb-5">
             <h3>Comment</h3>
             <b-form-textarea
@@ -110,3 +110,10 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+.article-body IMG {
+  max-width: 100% !important;
+  height: auto !important;
+}
+</style>
