@@ -10,7 +10,7 @@
       ></component>
     </template>
     <template v-else-if="dataError === true">
-      <div d-flex justify-content-center align-content-center m-5>
+      <div class="d-flex justify-content-center align-content-center m-5">
         <h1>Not Found</h1>
       </div>
     </template>
