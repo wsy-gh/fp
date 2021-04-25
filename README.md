@@ -10,7 +10,7 @@ npm install
 Then run:
 
 ```
-npm serve
+npm run serve
 ```
 
 This will utilize the .env.local file (when running locally). (See package.json for the corresponding --mode flag)
