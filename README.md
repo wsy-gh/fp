@@ -6,7 +6,7 @@ At the terminal, run:
 npm install
 ```
 
-<h2>Step 2 - 'npm serve'</h2>
+<h2>Step 2</h2>
 Then run:
 
 ```
